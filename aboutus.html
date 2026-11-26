@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./aboutus.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <header class="bg-white">
+        <nav class="container">
+            <figure class="d-none d-lg-flex justify-content-between text-center pt-md-4 pb-md-2 p-4">
+                <ul class="nav nav-contact mt-2">
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <a href="./index.html">
+                    <img src="./images/paope-logo.svg" alt="Paopé" class="img-fluid">
+                </a>
+                <ul class="nav nav-menu mt-2">
+                    <li>
+                        <a href="#">
+                            <img src="./images/button/user.png" alt="Login" class="img-fluid">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/button/bag.png" alt="Cart" class="img-fluid">
+                        </a>
+                    </li>
+                </ul>
+            </figure>
+            <div class="d-flex d-lg-none p-2 flex-wrap justify-content-between">
+                <a href="./index.html">
+                    <img src="./images/paope-logo.svg" alt="Paopé" class="img-fluid">
+                </a>
+                <button class="btn btn-outline-success fs-3" onclick="togglenav()">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <nav class="nav bg-white shadow-sm sticky-top pt-2" id="navbar">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-lg-center">
+                <ul class="d-lg-flex flex-row flex-wrap list-unstyled">
+                    <li><a class="nav-link link-success" href="#">HOME</a></li>
+                    <li>
+                        <a class="nav-link link-dark" href="#">COLLECTION <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a class="link-dark" href="#">NEW ARRIVALS</a></li>
+                            <li>
+                                <a class="link-dark"  href="#">BAGS & BACKPACKS <i class="fa-solid fa-angle-right"></i></a>
+                                <ul>
+                                    <li><a class="link-dark" href="#">BACKPACKS</a></li>
+                                    <li><a class="link-dark" href="#">LAPTOP BAGS</a></li>
+                                    <li><a class="link-dark" href="#">BRIEFCASE</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="link-dark" href="#">LUGGAGE</a></li>
+                            <li><a class="link-dark" href="#">HANDBAGS & CLUTCHES</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link link-dark" href="#">BLOG <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a class="link-dark" href="#">NEW ARRIVALS</a></li>
+                            <li><a class="link-dark" href="#">LUGGAGE</a></li>
+                            <li><a class="link-dark" href="#">HANDBAGS & CLUTCHES</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link link-dark" href="#">SALES</a></li>
+                    <li><a class="nav-link link-dark" href="#">ABOUT US</a></li>
+                    <li><a class="nav-link link-dark" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home-column">
+        <div class="d-flex flex-column-reverse flex-md-row flex-wrap">
+            <div class="col-12 card rounded-0 border-0">
+                <img src="https://www.net-a-porter.com/variants/images/17428787259095326/ou/w920_q60.jpg" alt="BACKPACKS" class="img-fluid">
+                <div class="card-img-overlay top-50 translate-middle-y ms-3 ms-lg-5 mt-0 mt-lg-5">
+                    <h1 class="text-dark fw-bolder mt-5 mb-0 overlay-col">ABOUT US</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a class="fs-3 link-secondary fw-semibold" href="#">HOME</a></li>
+                          <li class="breadcrumb-item active fs-3 fw-semibold" aria-current="page">ABOUT US</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <p class="p-start"><b>Style is a way to say who you are without having to speak</b></p>
+    <div class="content1">
+        <div class="ct-dt">
+            <div class="image2">
+                <img src="https://i.pinimg.com/564x/ca/c3/f4/cac3f48c2be634043ea1bb02af2559f0.jpg" alt="...">
+            </div>
+            <div class="content-up">
+                <span class="line">
+                    <p class="p-head"><b>PHONE</b></p>
+                    <p class="p-un">PHONE : +66 841116666</p>
+                </span>
+                <span class="line">
+                    <p class="p-head"><b>ADDRESS</b></p>
+                    <p class="p-un">KHON KAEN U. <br>Khon Kaen Thailand</p>
+                </span>
+                <span class="line2">
+                    <p class="p-head"><b>EMAIL</b></p>
+                    <p class="p-un"><u>paope1234@gmsil.com</u></p>
+                </span>
+                <div class="icon1">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+    </div>
+        <div class="con-head">
+            <h2>Our Story</h2>
+            <p>Quis autem vel eum iure reprehenderit qui in ea <br> voluptate velit esse quam nihil molestiae <br> consequatur, vel illum qui dolorem eum fugiat <br> quo voluptas nulla pariatur erit qui in ea <br> voluptate verit qui in ea voluptate vele quam <br> nihil molestiae consequatur, vel illum qui <br> dolorem eum fugiat consequatur, vel illum qui <br> dolorem eum fugiat quo voluptas nulla pariatur <br> erit qui in ea voluptate verit qui in ea voluptate <br> vele quam
+            </p>
+            <div class="image2">
+                <img src="https://i.pinimg.com/564x/a8/b7/2f/a8b72fb8e5836465c0d04d42281aa128.jpg" alt="...">
+            </div>
+        </div>
+    </div>
+    <div class="h2team">
+        <h2 class="team">Our Team</h2>
+    </div>
+    <div class="con-h3">
+        <div class="img-card">
+            <div class="card" style="width: 18rem;">
+                <img src="https://scontent.fkkc4-2.fna.fbcdn.net/v/t1.15752-9/306855260_684034999813328_3627142140264294591_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=L1vD3jaG8e8AX-KD15t&_nc_ht=scontent.fkkc4-2.fna&oh=03_AVKpZsVOoq4J8N2EcS___-X0qdrL-bqFaI2RjOROtAsPIQ&oe=6365A818" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Teerawut Sangkagaro</p>
+                </div>
+            </div>
+    
+            <div class="card" style="width: 18rem;">
+                <img src="https://scontent.fkkc4-2.fna.fbcdn.net/v/t1.15752-9/310058425_4008141702643033_8115592388359589717_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=Y8IoL_c1IC0AX9L8aC3&_nc_ht=scontent.fkkc4-2.fna&oh=03_AVK7yGdjsNvailhnzNt6s-pmUhiXUsseEgLOnz9vQM4wfw&oe=6367BAE1" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Piyarat Upacheewa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer style="padding-top: 5em; background-color: #181818;">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2 my-2">
+              <h5 class="fs-6 fw-bold text-white mb-4">INFORMATION</h5>
+                <ul class="nav flex-column">
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/about">About Us</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/blogs">Blog</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/delivery-infomation">Delivery Information</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/privacy-policy">Privacy Policy</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/terms-conditions">Terms & Conditions</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2 my-2">
+              <h5 class="fs-6 fw-bold text-white mb-4">CATEGORIZE</h5>
+                <ul class="nav flex-column">
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Bags & Backpacks</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Luggage</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Handbags & Clutches</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Wallets</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2 my-2">
+              <h5 class="fs-6 fw-bold text-white mb-4">HELP</h5>
+                <ul class="nav flex-column">
+                  <li><a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/service/customer">Customer Service</a></li>
+                  <li><a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/legal-privacy">Legal & Privacy</a></li>
+                  <li><a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 my-2 mt-5 mt-md-2" id="mypaope">
+              <h5 class="fs-6 fw-bold text-white mb-4">MY PAOPE</h5>
+                <p class="py-1 text-light">Sign up now and get the latest and hottest news fashion from PAOPE.</p>
+                <a href="#" class="btn btn-light fw-bold" style="border-radius: 0px!important;">JOIN US</a>
+            </div>
+            <div class="col-12 text-center pt-5">
+              <img src="./images/paope-logo-green.svg" alt="Logo Footer" style="height: 35%;">
+                <p class="mt-3 text-light">&copy; Copyright 2022 PAOPE. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+    </footer>
+</body>
+</html>

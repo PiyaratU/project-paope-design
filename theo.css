@@ -1,0 +1,55 @@
+.h1-head{
+    text-align: center;
+    font-weight: bold;
+}
+.img-theo{
+    margin: 2%;
+    
+}
+.img-theo1{
+    margin-left: 5%;
+}
+.img-theo2{
+    margin-top: 5rem;
+    margin-left: 53%;
+}
+.img-theo1 img, .img-theo2 img{
+    width: 40vw;
+    height: 90vh;
+    object-fit: cover;
+}
+@media screen and (max-width: 960px){
+    .img-theo1 img, .img-theo2 img{
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 720px){
+    .h1-head{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+    }
+    .img-theo2{
+        margin-top: 5rem;
+        margin-left: 48%;
+    }
+    .img-theo1 img, .img-theo2 img{
+        width: 45vw;
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 540px){
+    .h1-head{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+    }
+    .img-theo2{
+        margin-top: 5rem;
+        margin-left: 52%;
+    }
+    .img-theo1 img, .img-theo2 img{
+        width: 40vw;
+        height: 30vh;
+    }
+}

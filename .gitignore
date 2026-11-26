@@ -1,0 +1,7 @@
+# Empty lockfile left by `npm install` (this is a static HTML/CSS site, no packages)
+package-lock.json
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

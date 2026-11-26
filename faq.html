@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./aboutus.css">
+    <link rel="stylesheet" href="./faq.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-white">
+        <nav class="container">
+            <figure class="d-none d-lg-flex justify-content-between text-center pt-md-4 pb-md-2 p-4">
+                <ul class="nav nav-contact mt-2">
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <a href="./index.html">
+                    <img src="./images/paope-logo.svg" alt="Paopé" class="img-fluid">
+                </a>
+                <ul class="nav nav-menu mt-2">
+                    <li>
+                        <a href="#">
+                            <img src="./images/button/user.png" alt="Login" class="img-fluid">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/button/bag.png" alt="Cart" class="img-fluid">
+                        </a>
+                    </li>
+                </ul>
+            </figure>
+            <div class="d-flex d-lg-none p-2 flex-wrap justify-content-between">
+                <a href="./index.html">
+                    <img src="./images/paope-logo.svg" alt="Paopé" class="img-fluid">
+                </a>
+                <button class="btn btn-outline-success fs-3" onclick="togglenav()">
+                    <i class="bi bi-list"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <nav class="nav bg-white shadow-sm sticky-top pt-2" id="navbar">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-lg-center">
+                <ul class="d-lg-flex flex-row flex-wrap list-unstyled">
+                    <li><a class="nav-link link-success" href="#">HOME</a></li>
+                    <li>
+                        <a class="nav-link link-dark" href="#">COLLECTION <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a class="link-dark" href="#">NEW ARRIVALS</a></li>
+                            <li>
+                                <a class="link-dark"  href="#">BAGS & BACKPACKS <i class="fa-solid fa-angle-right"></i></a>
+                                <ul>
+                                    <li><a class="link-dark" href="#">BACKPACKS</a></li>
+                                    <li><a class="link-dark" href="#">LAPTOP BAGS</a></li>
+                                    <li><a class="link-dark" href="#">BRIEFCASE</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="link-dark" href="#">LUGGAGE</a></li>
+                            <li><a class="link-dark" href="#">HANDBAGS & CLUTCHES</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link link-dark" href="#">BLOG <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a class="link-dark" href="#">NEW ARRIVALS</a></li>
+                            <li><a class="link-dark" href="#">LUGGAGE</a></li>
+                            <li><a class="link-dark" href="#">HANDBAGS & CLUTCHES</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link link-dark" href="#">SALES</a></li>
+                    <li><a class="nav-link link-dark" href="#">ABOUT US</a></li>
+                    <li><a class="nav-link link-dark" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="home-column">
+        <div class="d-flex flex-column-reverse flex-md-row flex-wrap">
+            <div class="col-12 card rounded-0 border-0">
+                <img src="https://i.pinimg.com/564x/fd/64/5f/fd645f40349ecbbdca659677c6a63393.jpg" alt="BACKPACKS" class="img-fluid">
+                <div class="card-img-overlay top-50 translate-middle-y ms-3 ms-lg-5 mt-0 mt-lg-5">
+                    <h1 class="text-dark fw-bolder mt-5 mb-0 overlay-col">FAQ</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a class="fs-3 link-secondary fw-semibold" href="#">HOME</a></li>
+                          <li class="breadcrumb-item active fs-3 fw-semibold" aria-current="page">FAQ</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="h1-faq">
+        <h1>Frequently Asked Questions</h1>
+        <p><b>Hello paope lover,<br>
+            how can we help?</b></p>
+            <p>In this section you’ll find the answers to your questions. <br>
+                Find the topic that interests you below and click on the link to get all the information you need. <br>
+                If you don’t find the answer to your question in this section, you can always contact our customer services.</p>
+    </div>
+    <div class="row">
+        <div class="col-4">
+          <div id="simple-list-example" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-dark">
+            <a class="p-1 rounded" href="#simple-list-item-1">Returns and Refound</a>
+            <a class="p-1 rounded" href="#simple-list-item-2">Shipping and Delivery</a>
+            <a class="p-1 rounded" href="#simple-list-item-3">Product Information</a>
+            <a class="p-1 rounded" href="#simple-list-item-4">How to Buy</a>
+            <a class="p-1 rounded" href="#simple-list-item-5">Payment</a>
+            <a class="p-1 rounded" href="#simple-list-item-5">My Account</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <h4 id="simple-list-item-1">Returns and Refound</h4>
+            <p>If you’ve returned goods, the refund will be issued within fourteen (14) working days from the moment 
+                the return is notified by our Customer Care team with a confirmation email.
+                If you paid the shipping costs at the time of ordering, these will be refunded. Shipping costs for returns 
+                are payable by the customer. <br><br>
+                
+                <b>If you paid cash on delivery</b> <br>
+                The refund will be paid into a bank account indicated by you when you’re contacted by Customer Care. <br><br>
+                
+                <b>If you paid with a Gift Card</b> <br>
+                The refund will be paid into a bank account indicated by you when you’re contacted by Customer Care. <br><br>
+                
+                <b>If you paid by credit card</b>
+                The refund will be paid to the same card used at the time of ordering. <br><br>
+                
+                <b>If you paid with PayPal</b> <br>
+                The refund will be paid to the same PayPal account used at the time of ordering. <br><br>
+                
+                <b>If you paid by bank transfer</b> <br>
+                The refund will be paid into the same bank account.</p> 
+            <h4 id="simple-list-item-2">Shipping and Delivery</h4>
+            <p>If you’re registered, you can check the status of your order and the tracking number in the My Orders section of your Account.
+                If you’re not registered, you can check the status of your order in this section by entering the data requested.
+                You can ask Customer Care for information by email or chat.</p>
+            <h4 id="simple-list-item-3">Product Information</h4>
+            <p>Our website is divided into categories:
+                - Bags
+                - Soft collection
+                - Backpacks
+                - Watches
+                - Sunglasses
+                - Accessories
+                - Footwear
+                - O bag ID
+                - Gift Cards <br><br>
+                
+                In each section you’ll find all the items in that particular category. e.g: Watches: O clock, O clock great, O clock shift, O clock great shift, O click shift. <br><br>
+                
+                If you know the item code, you can find the product by entering it in the search bar.</p><br>
+            <h4 id="simple-list-item-4">How to Buy</h4>
+            <p>On the O bag website you can make purchases as a registered user or as a guest. <br>
+                If you already have an O bag account, just access it by entering the email address and password you used when you signed up.
+                Forgotten your password? Click on Forgotten your password? and we’ll send you an email so you can reset it. <br>
+                If you’re a new customer and you’d like to register, click on Crete an Account, enter your details and create a password to access your account.
+                
+                </p>
+            <h4 id="simple-list-item-5">Payment</h4>
+            <p>Payments can be made by credit card (Visa, Mastercard etc), Postepay, PayPal, Apple Pay, Google Pay, Klarna or by bank transfer; or using an O bag digital Gift Card. <br><br>
+                The O bag website accepts all Mastercard, Visa, Postepay, Discover and Diners Club cards and all major credit and prepaid cards.
+                Your card will be debited at the moment your order is confirmed. <br><br>
+                If you choose to pay by bank transfer, once your order is complete you’ll receive an email containing all the information you need to make the transaction. We advise you to correctly enter the payment reference we’ll send you with the order confirmation, otherwise the transfer will not be recognised and your payment will be unsuccessful.</p><br>
+            <h4 id="simple-list-item-6">My Account</h4>
+            <p>To create an Account, click on “Account/Register”.
+                Click on “Create an Account”, enter your details and choose a password. <br>
+                You can change the details on your account at any time by clicking on “Change”. <br>
+                If you’re registered, you can check the status of your orders at any time from your Account. If you’re not registered, you can check the status of your orders in this section, by entering the details requested. <br><br>
+
+                <b>Order status are as follows:</b> <br>
+
+                <b>Order being processed:</b> your order is still being prepared at the warehouse. <br>
+
+                <b>Order shipped:</b> your order has been handed to the carrier and is in transit. <br>
+
+                <b>Order cancelled:</b> your order has been cancelled. <br>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    <footer style="padding-top: 5em; background-color: #181818;">
+        <div class="container">
+          <div class="row">
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2 my-2">
+              <h5 class="fs-6 fw-bold text-white mb-4">INFORMATION</h5>
+                <ul class="nav flex-column">
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/about">About Us</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/blogs">Blog</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/delivery-infomation">Delivery Information</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/privacy-policy">Privacy Policy</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/terms-conditions">Terms & Conditions</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2 my-2">
+              <h5 class="fs-6 fw-bold text-white mb-4">CATEGORIZE</h5>
+                <ul class="nav flex-column">
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Bags & Backpacks</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Luggage</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Handbags & Clutches</a>
+                  </li>
+                  <li>
+                      <a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/store/categories/">Wallets</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-4 col-sm-4 col-md-4 col-lg-2 my-2">
+              <h5 class="fs-6 fw-bold text-white mb-4">HELP</h5>
+                <ul class="nav flex-column">
+                  <li><a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/service/customer">Customer Service</a></li>
+                  <li><a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/legal-privacy">Legal & Privacy</a></li>
+                  <li><a class="link-light text-decoration-none d-inline-block py-1 text-capitalize" href="/contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 my-2 mt-5 mt-md-2" id="mypaope">
+              <h5 class="fs-6 fw-bold text-white mb-4">MY PAOPE</h5>
+                <p class="py-1 text-light">Sign up now and get the latest and hottest news fashion from PAOPE.</p>
+                <a href="#" class="btn btn-light fw-bold" style="border-radius: 0px!important;">JOIN US</a>
+            </div>
+            <div class="col-12 text-center pt-5">
+              <img src="./images/paope-logo-green.svg" alt="Logo Footer" style="height: 35%;">
+                <p class="mt-3 text-light">&copy; Copyright 2022 PAOPE. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+    </footer> 
+</body>
+</html>
